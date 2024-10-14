@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[actiTIME - Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME - Enter Time-Track page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME - Task List page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer has got passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-04T11:30:50 IST" name="Default suite" finished-at="2024-10-04T11:31:05 IST" duration-ms="14537">
+    <groups>
+    </groups>
+    <test started-at="2024-10-04T11:30:50 IST" name="Default test" finished-at="2024-10-04T11:31:05 IST" duration-ms="14537">
+      <class name="com.actitime.testscript.CustomerModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@fa4c865]" started-at="2024-10-04T11:30:50 IST" name="openBrowser" finished-at="2024-10-04T11:30:52 IST" duration-ms="1462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@fa4c865]" started-at="2024-10-04T11:30:52 IST" name="login" finished-at="2024-10-04T11:30:52 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[actiTIME - Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@fa4c865]" started-at="2024-10-04T11:30:52 IST" name="createCustomer" finished-at="2024-10-04T11:31:05 IST" duration-ms="12476" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[actiTIME - Enter Time-Track page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[actiTIME - Task List page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[createCustomer has got passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CustomerModule@fa4c865]" started-at="2024-10-04T11:31:05 IST" name="logout" finished-at="2024-10-04T11:31:05 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@fa4c865]" started-at="2024-10-04T11:31:05 IST" name="closeBrowser" finished-at="2024-10-04T11:31:05 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CustomerModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
